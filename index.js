@@ -5,12 +5,18 @@ import './style.css';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
-function reverseString1(str) {
-  let splited = str.split('');
-  splited.reverse();
-  let joined = splited.join("")
-  return joined
+// function reverseString1(str) {
+//   let splited = str.split('');
+//   splited.reverse();
+//   let joined = splited.join("")
+//   return joined
+// }
+
+
+// console.log(reverseString1('akindele'))
+
+function reverseString2(str) {
+  return str.split('').reverse().join("")
 }
 
-
-console.log(reverseString1('akindele'))
+console.log(reverseString2('akintunde'))
