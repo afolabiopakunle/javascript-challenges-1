@@ -15,8 +15,17 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 // console.log(reverseString1('akindele'))
 
-function reverseString2(str) {
-  return str.split('').reverse().join("")
+// function reverseString2(str) {
+//   return str.split('').reverse().join("")
+// }
+
+// console.log(reverseString2('akintunde'))
+
+function returnEvenOrOdd(num) {
+  if(num % 2) {
+    return "Odd"
+  }
+  return "Even"
 }
 
-console.log(reverseString2('akintunde'))
+console.log(returnEvenOrOdd(412))
