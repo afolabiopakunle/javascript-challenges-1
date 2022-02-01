@@ -21,11 +21,28 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 // console.log(reverseString2('akintunde'))
 
-function returnEvenOrOdd(num) {
-  if(num % 2) {
-    return "Odd"
-  }
-  return "Even"
-}
+// function returnEvenOrOdd(num) {
+//   if(num % 2) {
+//     return "Odd"
+//   }
+//   return "Even"
+// }
 
-console.log(returnEvenOrOdd(412))
+// let returnEvenOrOdd = num => num % 2 ? "Odd" : "Even"
+
+// console.log(returnEvenOrOdd(412));
+
+// Count Vowels
+
+// function countVowels(str) {
+//   let vowels = 0
+//   str.split("").map(letter => {
+//     if(letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u') {
+//       vowels += 1
+//     }
+//   })
+//   return vowels
+
+// }
+
+// console.log(countVowels("afolabi"))
