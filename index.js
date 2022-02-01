@@ -52,3 +52,11 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 // }
 
 // console.log(greet("Afolabi"))
+
+// IS N DIVISIBLE BY X AND Y
+
+// function isDivisible(n, x, y) {
+//   return  n % x || n % y ?  false : true
+// }
+
+// console.log(isDivisible(6, 3, 3));
