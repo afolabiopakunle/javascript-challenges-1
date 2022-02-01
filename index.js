@@ -46,3 +46,9 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 // }
 
 // console.log(countVowels("afolabi"))
+
+// function greet(name) {
+//   return (name === "Johny" ? 'Hello, my love!' : `Hello, ${name}!`)
+// }
+
+// console.log(greet("Afolabi"))
