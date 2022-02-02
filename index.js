@@ -100,4 +100,17 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 //   return start
 // }
 
-// console.log(summation2(8))
+// console.log(summation2(8));
+
+function average(scores) {
+  let total = 0
+  scores.forEach(score => {
+    total += score
+  })
+
+  let result = total/scores.length
+  let res = Math.floor(result)
+  return res
+}
+
+console.log(average([2, 4, 5, 7,8]))
