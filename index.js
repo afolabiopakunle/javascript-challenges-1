@@ -79,3 +79,25 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 // }
 
 // console.log(findSmallestNum([33, -2, 5, 6, 31, 1]))
+
+// function summation(arr) {
+//   let num = 0;
+//   arr.map(item => {
+//     num += item
+//   })
+
+//   return num
+// }
+
+// console.log(summation([4, 4, 65]));
+
+// function summation2(num) {
+//   let start = 0;
+//   for(let i = 0; i <= num ; i++) {
+//     start += i 
+//     // console.log("Hi" +i)  
+//   }
+//   return start
+// }
+
+// console.log(summation2(8))
