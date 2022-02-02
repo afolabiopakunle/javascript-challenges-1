@@ -56,7 +56,26 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 // IS N DIVISIBLE BY X AND Y
 
 // function isDivisible(n, x, y) {
-//   return  n % x || n % y ?  false : true
+//   return  (n % x || n % y) ?  false : true
 // }
 
-// console.log(isDivisible(6, 3, 3));
+// console.log(isDivisible(6, 3, 6));
+
+// function findSmallestNum(arr) {
+
+//   let smallestNum
+
+//   arr.forEach((item, index) => {
+//     if(index === 0) {
+//       smallestNum = item;
+//     }
+
+//     if(item < smallestNum) {
+//       smallestNum = item
+//     }
+//   })
+
+//   return smallestNum
+// }
+
+// console.log(findSmallestNum([33, -2, 5, 6, 31, 1]))
