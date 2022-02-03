@@ -102,15 +102,29 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 // console.log(summation2(8));
 
-function average(scores) {
-  let total = 0
-  scores.forEach(score => {
-    total += score
-  })
+// function average(scores) {
+//   let total = 0
+//   scores.forEach(score => {
+//     total += score
+//   })
 
-  let result = total/scores.length
-  let res = Math.floor(result)
-  return res
+//   let result = total/scores.length
+//   let res = Math.floor(result)
+//   return res
+// }
+
+// console.log(average([2, 4, 5, 7,8]))
+
+const course = {
+  courseName: 'AOC 101',
+  courseTitle: 'Democrats'
 }
 
-console.log(average([2, 4, 5, 7,8]))
+const student = {
+  studentName: 'Afolabi',
+  studentDepartment: 'Urban & Regional Planning'
+}
+
+const combined = Object.assign(course, student);
+const copy = Object.assign(combined, course)
+console.log(copy)
